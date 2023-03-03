@@ -6,7 +6,7 @@ $input = array(22, 34, 17, 18, 14, 13, 22, 25);
 $filtro = function (int $age) {
     /** Tipagem int: 
      *  Está sendo atribuído a variável filtro essa função.
-     *  Essa função tem deve ter como parâmetro um número inteiro;  5.2 é Int? 
+     *  Essa função tem deve ter como parâmetro um número inteiro;  5.2 não é Int
      *  Retorna valor booleano para todo número maior ou igual 18.
      */
     return ($age >= 18);
